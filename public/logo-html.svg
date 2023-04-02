@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{opacity:0.1;}
+</style>
+<title>HTML5 Logo Badge</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="38" y1="427" x2="473" y2="-8">
+	<stop  offset="0" style="stop-color:#FFDE6A"/>
+	<stop  offset="1" style="stop-color:#E98200"/>
+</linearGradient>
+<polygon class="st0" points="481,0 440,460 255,512 71,460 30,0 "/>
+<path class="st1" d="M255,414h1v-0.3L255,414z"/>
+<polygon class="st1" points="397,94 396,109 393,138 392,150 176,150 181,208 387,208 385,223 372,372 371,382 256,413.7 255,414 
+	139,382 132,293 188,293 192,338 255,355 318,338 325,265 129,265 115,109 114,94 "/>
+<polygon class="st2" points="256,0 256,511.1 254.5,511.5 70.5,459.5 29.5,0 "/>
+</svg>

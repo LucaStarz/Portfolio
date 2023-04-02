@@ -1,0 +1,33 @@
+#trigger1 {
+    margin-top: 340px;
+}
+
+.pin1 {
+    margin-bottom: 720px;
+}
+
+.invisibleGauche {
+	position: relative;
+	left: -500px;
+	opacity: 0;
+    transition: left 2s, opacity 0.5s;
+}
+
+.visibleGauche {
+	left: 0px;
+	opacity: 1;
+	transition: left 5s cubic-bezier(0,1,.27,1), opacity 2s;
+}
+
+.invisibleDroite {
+	position: relative;
+	left: 500px;
+	opacity: 0;
+    transition: left 2s, opacity 0.5s;
+}
+
+.visibleDroite {
+	left: 0px;
+	opacity: 1;
+	transition: left 5s cubic-bezier(0,1,.27,1), opacity 2s;
+}

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+main {
+	position: absolute;
+}
+
+#titre {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 300px;
+}
+
+#titre img {
+	width: 75px;
+	height: 200px;
+}
+
+#flecheSvg {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+#selectionneur {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 200px;
+	margin: 0px 450px;
+}
+
+#selectionneur button {
+	height: 200px;
+	width: 200px;
+	border-width: 0;
+	background-color: rgba(167, 167, 167, 0.05);
+	border-radius: 25px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#selectionneur #go img {
+	margin: 10px;
+}
+
+#selectionneur #kotlin img {
+	margin: 40px;
+}
+
+#selectionneur #sql img {
+	margin: 35px;
+}
+
+#selectionneur #html img {
+	margin: 35px;
+}
+
+#selectionneur button hr {
+	position: relative;
+	top: -30px;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: #98dbf3;
+	width: 0px;
+	opacity: 0;
+	transition: width 0.3s ease-in-out, opacity 0.5s;
+}
+
+#selectionneur button:hover hr {
+	width: 150px;
+	opacity: 1;
+	transition: width 0.3s ease-in-out, opacity 0.1s;
+}
+
+#selectionneur button:hover {
+	background-color: rgba(167, 167, 167, 0.2);
+	cursor: pointer;
+}
+
+#descriptionSelectionneur {
+	margin: 0px 470px;
+	margin-bottom: 10px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bolder;
+	font-style: italic;
+	font-size: xx-large;
+	color: white;
+}
+
+.box-style {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+	padding: 30px 40px;
+}
+
+.titre {
+	font-size: 70px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bolder;
+	color: white;
+}
+
+.texte {
+	font-size: x-large;
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	line-height: 35px;
+	opacity: 1;
+	margin-left: 20%;
+}
+
+#buttons {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	justify-content: space-around;
+	z-index: 5;
+}
+
+#buttons > a {
+	width: 100%;
+	text-decoration: none;
+	background-color: #686464;
+	padding: 5px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+#buttons > a:hover {
+	background-color: #dac4c4;
+}
+
+#buttons > a:not(#page_selectionne) {
+	color: white;
+}
+
+#page_selectionne {
+	color: #968383;
+}
+
+@keyframes move_scroll_image {
+	0% { transform: translateY(-10px); }
+
+	50% { transform: translateY(10px); }
+
+	100% { transform: translateY(-10px); }
+}
+
+#scroll_image {
+	position: fixed;
+	width: 5%;
+	height: 12%;
+	top: 85%;
+	left: 94.5%;
+	background-color: #968383;
+	opacity: 0.4;
+	border-radius: 40px;
+	animation: move_scroll_image 1s infinite ease-in-out;
+}
+
+.texteSection {
+	font-size: 100px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bolder;
+	color: white;
+	padding: 200px 300px;
+	padding-bottom: 150px;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bolder;
+	color: white;
+}
+
+#algo {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0px 100px;
+}
+
+#contenuAlgo {
+	width: 900px;
+}
+
+#algo img {
+	width: 500px;
+	border-radius: 25px;
+}
+
+.contenu {
+	margin-top: 300px;
+}
+
+#particules {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0px 100px;
+	margin-top: 200px;
+}
+
+#particules img {
+	border-radius: 25px;
+	margin-right: 100px;
+}
